@@ -441,5 +441,5 @@ def main():
         
         st.plotly_chart(fig_cm, use_container_width=True)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
